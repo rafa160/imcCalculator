@@ -24,6 +24,8 @@ class _HomeState extends State<Home> {
     heightController.text = "";
     setState(() {
       _infoDados = "Informe seus dados";
+      //reseta o show de erro quando nao a item inserido
+      _formKey = GlobalKey<FormState>();
     });
 
 
